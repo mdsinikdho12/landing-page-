@@ -1,0 +1,134 @@
+*{
+    margin: o;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+.container {
+    max-width: 1200px; /* কনটেইনারের প্রস্থ নির্ধারণ */
+    margin: 0 auto; /* পেজের মাঝখানে আনবে */
+    padding: 20px; /* ভেতরের মার্জিন */
+   
+    border-radius: 10px; /* কর্নার গুলো গোলাকার */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); হালকা শ্যাডো */
+    display: flex;
+}
+
+/* header part css start  */
+.header{
+    
+    height: 60px;
+  
+    display: flex;
+    justify-content:space-around;
+  
+}
+.logo-img{
+    height: 50px;
+}
+.group-link {
+    display: flex;
+    justify-content: center;
+   
+}
+.group-link ul {
+    display: flex;
+    gap: 20px;
+}
+.button{
+    display: flex;
+    align-items: center;
+}
+.button a{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    padding: 9px 20px ;
+    transition: all linear 0.2s ;
+    margin-right: 5px;
+}
+
+.button a:hover{
+    background-color: rgba(84, 184, 255, 1);
+transition: all linear 0.2s ;
+}
+
+.header ul li a {
+    color: black;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+/* header part css End */
+
+/* hero section css start  */
+
+.text-part{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.fast-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 23.5%;
+    color: rgba(95, 89, 110, 1);
+    margin-top: 70px;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 115.99999999999999%;
+    color: rgba(95, 89, 110, 1);
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.text-discription{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 156%;
+    letter-spacing: 5%;
+}
+.apply-btn{
+    padding: 9px 21px ;
+    background-color: rgba(84, 184, 255, 1);
+    font-family: "Poppins", sans-serif;
+    color: aliceblue;
+    font-weight: 500;
+    display: inline-block;
+    width: fit-content;
+    
+}
+.arrow{
+    position: absolute;
+
+}
+.image-part{
+  width: 50%;
+  background-image: url(../img/hero.png),url(../img/Group.png);
+  display: flex;
+  background-repeat: no-repeat,no-repeat;
+  background-size: cover,auto;
+  background-position: center,left top;
+}
+
+.section-area{
+    width: 100%;
+    height: 552px;
+    background-image: url(../img/img-2.png), url(../img/img-1.png),url(../img/img-3.png),url(../img/img-4.png);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+    background-size: auto,auto,auto,auto,;
+    background-position:left top,right top ,left bottom,right bottom;
+    display: flex;
+    
+}
+/* hero section css End */
